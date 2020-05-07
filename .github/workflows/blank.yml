@@ -32,4 +32,7 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
         env
-        echo "cores=$(nproc); memory=$(free -m)"
+        javac -version
+        echo "cores=$(nproc)"
+        echo memory=
+        free -m
